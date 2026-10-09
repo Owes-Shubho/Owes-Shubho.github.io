@@ -1,0 +1,270 @@
+baseURL: "http://localhost:1313/"
+locale: "en-US"
+title: "Owes | SAP Basis & IT Infrastructure Professional"
+theme: "hugo-profile"
+
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    label: "English"
+    weight: 1
+    contentDir: "content"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 6
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Owes"
+  description: "Personal portfolio of Owes — SAP Basis, IT infrastructure, cloud, virtualization, integration, security coordination, and enterprise application support."
+  favicon: "/fav.png"
+
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  theme:
+    defaultTheme: "dark"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Owes"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero section
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Owes Shubho"
+    subtitle: "SAP BASIS & IT Infrastructure Professional"
+    content: "I work with SAP Basis administration, enterprise infrastructure, virtualization, cloud technologies, system integration, security coordination, and production support."
+    image: "/images/profile.png"
+    roundImage: true
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Download Resume"
+      url: "/files/Owes_CV.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: "fab fa-linkedin"
+          url: "https://www.linkedin.com/in/shubhobd/"
+        - icon: "fab fa-github"
+          url: "https://github.com/owes-shubho"
+
+  # About section
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/profile.png"
+    content: |-
+      I am an IT professional focused on SAP Basis, enterprise infrastructure, system integration, virtualization, cloud technologies, and production support.
+
+      My work includes SAP system administration, transport and client activities, SAP Web Dispatcher, connectivity troubleshooting, infrastructure planning, secure file exchange, VAPT coordination, server and storage administration, and technical support across enterprise applications.
+
+      I enjoy solving practical infrastructure and application problems, learning new technologies, and building reliable systems that support business operations.
+    skills:
+      enable: true
+      title: "Core technologies and areas I work with:"
+      items:
+        - "SAP Basis"
+        - "SAP Web Dispatcher"
+        - "SAP Transport Management"
+        - "SAP Authorization Support"
+        - "Windows Server"
+        - "Linux"
+        - "Virtualization"
+        - "TrueNAS / SMB Storage"
+        - "SFTP / PGP / SSH"
+        - "Networking & Firewall Coordination"
+        - "Cloud Computing"
+        - "VAPT / Security Coordination"
+        - "WordPress Administration"
+        - "MongoDB"
+        - "Python"
+        - "Hugo"
+
+  # Experience section
+  experience:
+    enable: true
+    title: "Experience"
+    items:
+      - company: "Current Organization"
+        companyUrl: "#"
+        jobs:
+          - name: "SAP Basis & IT Infrastructure Professional"
+            date: "Update with your actual dates"
+            info:
+              content: "Enterprise SAP and infrastructure operations"
+            content: |-
+              Responsibilities and areas of involvement include:
+
+              - SAP Basis administration and day-to-day system support.
+              - SAP transport, client, connectivity, and production support activities.
+              - SAP Web Dispatcher configuration and troubleshooting.
+              - Coordination with functional, ABAP, network, security, and external BASIS teams.
+              - Server, storage, SMB, virtualization, and infrastructure administration.
+              - SFTP, PGP, SSH, bank H2H integration, and secure file transfer support.
+              - VAPT coordination and remediation follow-up before production exposure.
+              - Troubleshooting application, database, email, and integration connectivity issues.
+              - Technical documentation, implementation planning, and go-live readiness support.
+
+  # Education section
+  # Replace the placeholders below with your actual education details.
+  education:
+    enable: true
+    title: "Education"
+    index: false
+    items:
+      - title: "Your Degree / Program"
+        school:
+          name: "Your University / Institute"
+          url: "#"
+        date: "Year - Year"
+        content: |-
+          Add your degree, major, relevant coursework, thesis, or academic achievements here.
+
+      - title: "Professional Training & Continuous Learning"
+        school:
+          name: "IT, SAP, Cloud & Infrastructure"
+          url: "#"
+        date: "Ongoing"
+        content: |-
+          Continuous learning in SAP Basis, cloud computing, data analytics, cybersecurity, networking, virtualization, Linux, and enterprise infrastructure.
+
+  # Achievements / Certifications section
+  # Replace or extend these entries with your real certifications.
+  achievements:
+    enable: true
+    title: "Certifications & Highlights"
+    items:
+      - title: "SAP & Enterprise Infrastructure"
+        content: "Hands-on experience supporting SAP environments, infrastructure, connectivity, transports, go-live activities, and production operations."
+      - title: "Cloud & Virtualization"
+        content: "Practical exposure to cloud concepts, virtualization platforms, server administration, storage, and enterprise infrastructure."
+      - title: "Security Coordination"
+        content: "Experience coordinating VAPT activities, access controls, secure connectivity, and remediation with security and network teams."
+
+  # Projects section
+  projects:
+    enable: true
+    title: "Selected Projects"
+    items:
+      - title: "SAP Production & Go-Live Support"
+        content: "Supported SAP landscape preparation, transport coordination, client activities, connectivity validation, production readiness, and issue resolution."
+        image: "/images/projects/sap-project.jpg"
+        badges:
+          - "SAP Basis"
+          - "Production Support"
+          - "Go-Live"
+          - "Transport Management"
+
+      - title: "Secure Bank H2H / SFTP Integration"
+        content: "Worked on secure host-to-host integration planning involving SFTP connectivity, SSH keys, PGP encryption, file transmission, acknowledgements, and bank status processing."
+        image: "/images/projects/h2h-project.jpg"
+        badges:
+          - "SFTP"
+          - "PGP"
+          - "SSH"
+          - "SAP"
+          - "Bank Integration"
+
+      - title: "Infrastructure, Storage & Virtualization"
+        content: "Administered and supported enterprise infrastructure including servers, storage, SMB shares, user access, virtualization, network coordination, and application hosting."
+        image: "/images/projects/infrastructure.jpg"
+        badges:
+          - "Windows Server"
+          - "Linux"
+          - "TrueNAS"
+          - "SMB"
+          - "Virtualization"
+
+      - title: "Local AI Inventory Assistant"
+        content: "Built and tested a local inventory chat application using Node.js and LM Studio with a local language model."
+        image: "/images/projects/ai-inventory.jpg"
+        badges:
+          - "Node.js"
+          - "LM Studio"
+          - "Local AI"
+          - "REST API"
+
+  # Contact section
+  contact:
+    enable: true
+    title: "Contact"
+    content: "Interested in SAP, infrastructure, cloud, security, or enterprise technology? Feel free to get in touch."
+    btnName: "Email Me"
+    btnLink: "mailto:YOUR_EMAIL@example.com"
+
+  # Disable recent blog posts because the portfolio currently does not use the demo blog content.
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: "Recent Posts"
+      enable: false
+      disableFeaturedImage: true
+    socialNetworks:
+      github: "https://github.com/owes-shubho"
+      linkedin: "https://www.linkedin.com/in/shubhobd/"
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
