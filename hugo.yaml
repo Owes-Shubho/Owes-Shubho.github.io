@@ -153,11 +153,11 @@ params:
     title: "Education"
     index: false
     items:
-      - title: "Your Degree / Program"
+      - title: "B.Sc in Computer Science and Engineering"
         school:
-          name: "Your University / Institute"
+          name: "Daffodil International University"
           url: "#"
-        date: "Year - Year"
+        date: "2019"
         content: |-
           Add your degree, major, relevant coursework, thesis, or academic achievements here.
 
