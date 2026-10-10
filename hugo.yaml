@@ -151,7 +151,7 @@ params:
   education:
     enable: true
     title: "Education"
-    index: false
+    index: false      
     items:
       - title: "M.Sc in Computer Science and Engineering"
         school:
@@ -160,7 +160,6 @@ params:
         date: "2027"
         content: |-
           Data Science
-    items:
       - title: "B.Sc in Computer Science and Engineering"
         school:
           name: "Daffodil International University"
