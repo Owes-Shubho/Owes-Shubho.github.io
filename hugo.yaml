@@ -93,7 +93,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/profile.webp"
+    image: "/images/profile.png"
     content: |-
       I am an IT professional focused on SAP Basis, enterprise infrastructure, system integration, virtualization, cloud technologies, and production support.
 
