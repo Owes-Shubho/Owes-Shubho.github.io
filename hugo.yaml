@@ -153,6 +153,14 @@ params:
     title: "Education"
     index: false
     items:
+      - title: "M.Sc in Computer Science and Engineering"
+        school:
+          name: "Daffodil International University"
+          url: "#"
+        date: "2027"
+        content: |-
+          Data Science
+    items:
       - title: "B.Sc in Computer Science and Engineering"
         school:
           name: "Daffodil International University"
@@ -189,7 +197,7 @@ params:
     items:
       - title: "SAP Production & Go-Live Support"
         content: "Supported SAP landscape preparation, transport coordination, client activities, connectivity validation, production readiness, and issue resolution."
-        image: "/images/projects/sap-project.jpg"
+        image: "/images/projects/converter.jpg"
         badges:
           - "SAP Basis"
           - "Production Support"
@@ -198,7 +206,7 @@ params:
 
       - title: "Secure Bank H2H / SFTP Integration"
         content: "Worked on secure host-to-host integration planning involving SFTP connectivity, SSH keys, PGP encryption, file transmission, acknowledgements, and bank status processing."
-        image: "/images/projects/h2h-project.jpg"
+        image: "/images/projects/profile2.jpg"
         badges:
           - "SFTP"
           - "PGP"
@@ -208,7 +216,7 @@ params:
 
       - title: "Infrastructure, Storage & Virtualization"
         content: "Administered and supported enterprise infrastructure including servers, storage, SMB shares, user access, virtualization, network coordination, and application hosting."
-        image: "/images/projects/infrastructure.jpg"
+        image: "/images/projects/converter.jpg"
         badges:
           - "Windows Server"
           - "Linux"
@@ -218,7 +226,7 @@ params:
 
       - title: "Local AI Inventory Assistant"
         content: "Built and tested a local inventory chat application using Node.js and LM Studio with a local language model."
-        image: "/images/projects/ai-inventory.jpg"
+        image: "/images/projects/converter.jpg"
         badges:
           - "Node.js"
           - "LM Studio"
@@ -231,7 +239,7 @@ params:
     title: "Contact"
     content: "Interested in SAP, infrastructure, cloud, security, or enterprise technology? Feel free to get in touch."
     btnName: "Email Me"
-    btnLink: "mailto:YOUR_EMAIL@example.com"
+    btnLink: "mailto:owes.shubho@gmail.com"
 
   # Disable recent blog posts because the portfolio currently does not use the demo blog content.
   footer:
